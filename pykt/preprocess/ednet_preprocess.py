@@ -40,7 +40,7 @@ def read_data_from_csv(read_file, write_file,dataset_name=None):
             start_i = 5000
             break
         if dataset_name == "ednet_all":
-            start_i = 0
+            start_i = 55000
         
     print(f"total user num: {count}")
     all_sa = pd.concat(file_list[start_i:])
